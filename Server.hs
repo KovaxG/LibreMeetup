@@ -116,8 +116,8 @@ response count = do
         |> addBreak greeting
         |> (h 1 $ show count)
         |> form (
-          addBreak "First name:"
-          |> input "text" "firstname" ""
+          addBreak "Enter any name you want (there is no remove feature as of yet):"
+          |> input "text" "Nickname" ""
           |> input "submit" "" "Submit"
         )
         |> hline
