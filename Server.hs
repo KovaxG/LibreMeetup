@@ -21,7 +21,7 @@ type Response = HTML
 data State = State {
   count :: Int,
   people :: [String]
-}
+} deriving (Eq)
 
 instance Show State where
   show state =
@@ -74,7 +74,9 @@ process request state  =
   in if not . null $ name
      then do
        putStrLn $ "RSVP from " ++ name
-       appendFile "data.txt" $ name ++ "\n"
+       if newState /= state
+       then appendFile "data.txt" $ name ++ "\n"
+       else putStrLn "Name already taken."
        (\a -> (a, newState)) <$> response newState
      else do
        putStrLn "Ignoring Request"
@@ -106,7 +108,7 @@ response count = do
     tag "!DOCTYPE html"
     |> html (
       hed (
-        tag "meta http-equiv=\"refresh\" content=\"10\""
+        tag "meta http-equiv=\"refresh\" content=\"30\""
         |> title "Free Software Meetup"
       )
       |> body (
