@@ -1,0 +1,44 @@
+This meetup will focus on the theme of freedom.
+
+Alis Rozmberg will talk us through some general concepts of freedom from the philosophical perspective, trying to explore the possibility of free will, together with what freedom came to be in our current societies. Please watch the following 10 minutes crash course as a starting point [0].
+
+Free Software
+
+After that, we will discuss the subject of Free Software and the ideas of Richard Stallman [1]. He defines free software as such:
+
+"Free software means that the software's users have freedom. (The issue is not about price.) Specifically, free software means users have the four essential freedoms:
+(0) to run the program,
+(1) to study and change the program in source code form,
+(2) to redistribute exact copies, and
+(3) to distribute modified versions.
+
+Software differs from material objects—such as chairs, sandwiches, and gasoline—in that it can be copied and changed much more easily. These facilities are why software is useful; we believe a program's users should be free to take advantage of them, not solely its developer." - [3]
+
+CopyLeft
+
+Does paying to transfer a number of bits make sense? Is selling a digital copy of a book the same as selling a paperback? Richard Stallman gave a talk on copyright and why it was problematic here [2].
+
+Interesting Questions
+
+Q1. Do you think that your freedom is truly restricted by software?
+Q2. Should schools use proprietary software?
+Q3. Do you think copyright should apply for the information age?
+
+Links
+
+If the number of references scares you or you just don’t have the time to go through each one of these, please consider listening to [0], [1] and if you have some time it is really worth listening to [2].
+
+<a href="https://www.youtube.com/watch?v=vCGtkDzELAI">[0] Determinism vs Free Will: Crash Course Philosophy #24 (~10 min)</a>
+
+<a href="https://www.youtube.com/watch?v=Ag1AKIl_2GM">[1] Free software, free society: Richard Stallman at TEDxGeneva 2014 (~14 min)</a>
+
+<a href="https://www.youtube.com/watch?v=SNBMdDaYhZA">[2] Richard Stallman at UofC (~1h and 15 min)</a>
+
+<a href="https://www.gnu.org/philosophy/philosophy.html">[3] Filozofia Proiectului GNU</a>
+
+<a href="https://stallman.org/eventbrite.html">[4] Reasons not to use Meetup.com</a>
+
+<a href="https://www.gnu.org/philosophy/is-ever-good-use-nonfree-program.en.html">[5] Is It Ever a Good Thing to Use a Nonfree Program?</a>
+
+<a href="https://ceata.org/">[6] Ceata - The Romanian Free Software Foundation</a>
+

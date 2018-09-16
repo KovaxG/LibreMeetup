@@ -1,0 +1,5 @@
+Hello, and welcome. This site is a free substitute to meetup RSVPing.
+
+We assure you that this site does not track you at all. You can verify this by looking at the actual source code that can be found on this <a href="https://github.com/KovaxG/LibreMeetup">github link</a>, or just to drive the point home, can also be found at the bottom of the website. 
+
+I invite everyone, especially non-technical people to look at the source code, and see what this stuff looks like.
