@@ -31,7 +31,7 @@ instance Show State where
 
 -- This needs to be set according to your setup.
 -- Use ipconfig command in the command line to find it.
-localIPAddress =  Host "192.168.0.136"
+localIPAddress =  Host "192.168.0.157"
 -- You will have to do port forwarding through your router or modem
 -- for this to work. You will have to look that up yourself.
 localPort = "80"
