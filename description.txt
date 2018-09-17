@@ -12,7 +12,7 @@ After that, we will discuss the subject of Free Software and the ideas of Richar
 (2) to redistribute exact copies, and
 (3) to distribute modified versions.
 
-Software differs from material objects—such as chairs, sandwiches, and gasoline—in that it can be copied and changed much more easily. These facilities are why software is useful; we believe a program's users should be free to take advantage of them, not solely its developer." - [3]
+Software differs from material objects such as chairs, sandwiches, and gasoline in that it can be copied and changed much more easily. These facilities are why software is useful; we believe a program's users should be free to take advantage of them, not solely its developer." - [3]
 
 CopyLeft
 
@@ -26,7 +26,7 @@ Q3. Do you think copyright should apply for the information age?
 
 Links
 
-If the number of references scares you or you just don’t have the time to go through each one of these, please consider listening to [0], [1] and if you have some time it is really worth listening to [2].
+If the number of references scares you or you just don't have the time to go through each one of these, please consider listening to [0], [1] and if you have some time it is really worth listening to [2].
 
 <a href="https://www.youtube.com/watch?v=vCGtkDzELAI">[0] Determinism vs Free Will: Crash Course Philosophy #24 (~10 min)</a>
 
@@ -41,4 +41,3 @@ If the number of references scares you or you just don’t have the time to go thr
 <a href="https://www.gnu.org/philosophy/is-ever-good-use-nonfree-program.en.html">[5] Is It Ever a Good Thing to Use a Nonfree Program?</a>
 
 <a href="https://ceata.org/">[6] Ceata - The Romanian Free Software Foundation</a>
-
