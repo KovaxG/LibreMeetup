@@ -92,6 +92,7 @@ process request state  =
 
     name = replace '+' ' '
            . safeTail
+           . filter (`elem` allowedCharacters)
            . takeWhile (/= ' ')
            . dropWhile (/= '=')
            . dropWhile (/= '?')
@@ -108,8 +109,7 @@ response count = do
     tag "!DOCTYPE html"
     |> html (
       hed (
-        tag "meta http-equiv=\"refresh\" content=\"30\""
-        |> title "Free Software Meetup"
+        title "Free Software Meetup"
       )
       |> body (
         h 2 "Greeting"
@@ -148,6 +148,7 @@ hline = tag "hr"
 tag s = "<" ++ s ++ ">"
 addTags tagName s = mconcat [tag tagName, "\n", s, "\n", tag ('/':tagName)]
 addBreak = (++ "<br>")
+allowedCharacters = ['a'..'z'] ++ ['A'..'Z'] ++ "!~-,_ "
 
 -- Helper Functions and renames
 
