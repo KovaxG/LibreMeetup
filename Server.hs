@@ -91,7 +91,6 @@ process request state  =
       }
 
     name = replace '+' ' '
-           . safeTail
            . filter (`elem` allowedCharacters)
            . takeWhile (/= ' ')
            . dropWhile (/= '=')
@@ -148,7 +147,7 @@ hline = tag "hr"
 tag s = "<" ++ s ++ ">"
 addTags tagName s = mconcat [tag tagName, "\n", s, "\n", tag ('/':tagName)]
 addBreak = (++ "<br>")
-allowedCharacters = ['a'..'z'] ++ ['A'..'Z'] ++ "!~-,_ "
+allowedCharacters = ['a'..'z'] ++ ['A'..'Z'] ++ "!~-,_ +"
 
 -- Helper Functions and renames
 
